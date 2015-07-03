@@ -80,13 +80,13 @@ HTML 开发规范指南
 
 不允许：
 
-```
+```html
 <p>标题</p>
 ```
 
 应该：
 
-```
+```html
 <h1>标题</h1>
 ```
 
@@ -101,18 +101,19 @@ HTML 开发规范指南
 
 代码如：
 
-    <section class="m-detail">
-        <header class="m-detail-hd">
-            <h1 class="title">模块标题</h1>
-        </header>
-        <div class="m-detail-bd">
-            <p class="info">一些实际内容</p>
-        </div>
-        <footer class="m-detail-ft">
-            <a href="#" class="more">更多</a>
-        </footer>
-    </section>
-
+```html
+<section class="m-detail">
+    <header class="m-detail-hd">
+        <h1 class="title">模块标题</h1>
+    </header>
+    <div class="m-detail-bd">
+        <p class="info">一些实际内容</p>
+    </div>
+    <footer class="m-detail-ft">
+        <a href="#" class="more">更多</a>
+    </footer>
+</section>
+```
 > 其中 `.m-detail-hd`, `.m-detail-bd`, `.m-detail-ft` 为可选，视具体模块情况决定是否需要抽象为这种 **头，中，尾** 的结构
 
 ##示例文件
